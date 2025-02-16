@@ -21,4 +21,4 @@ Redin is a powerful URL analyzer inspired by Raymond Reddington. Designed for bu
    ```bash
    git clone https://github.com/your-username/Redin.git
    cd Redin
-2. pip install requests pyfiglet colorama
+2. ```pip install requests pyfiglet colorama
