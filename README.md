@@ -43,3 +43,5 @@ EXTENSIONS = [
 ```
 
 ## Example Output 📋
+![image](https://github.com/user-attachments/assets/668700fd-a116-44dc-a253-81bb7e2e6574)
+
