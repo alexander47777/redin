@@ -28,6 +28,18 @@ Redin is a powerful URL analyzer inspired by Raymond Reddington. Designed for bu
 1. Prepare a `domains.txt` file with the domains/subdomains you want to analyze (one per line)
 2. python3 redin.py domains.txt
 
+## Configuration ⚙️
 
+### File Extensions
+You can customize the list of file extensions to search for by editing the `EXTENSIONS` list in the script:
+```python
+EXTENSIONS = [
+    ".conf", ".bak", ".ini", ".tmp", ".zip", ".rar", ".7z", ".tar.xz", ".tar.bz2", ".tar.lz", ".zst", ".gzip",
+    ".sql", ".db3", ".accde", ".accdt", ".ldb", ".ldf", ".dmp", ".rdb", ".json", ".pkl", ".feather", ".parquet",
+    ".hdf5", ".mat", ".sas7bdat", ".xpt", ".dta", ".sav", ".rda", ".rdata", ".sqlite3", ".db-wal", ".db-shm",
+    ".sqlitedb", ".ost", ".pst", ".edb", ".ns2", ".ns3", ".box", ".idx", ".eml", ".mbox", ".mail", ".msg", ".ics", ".vcf",
+    ".backup", ".asp", ".aspx", ".jsp", ".pdf", ".csv", ".cgi"
+]
+```
 
 ## Example Output 📋
